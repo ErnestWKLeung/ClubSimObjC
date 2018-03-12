@@ -1,0 +1,899 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07398347526D1E1E9150DA33 /* Pods_ClubSimObjCTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7576F26484824B11D17D85D4 /* Pods_ClubSimObjCTests.framework */; };
+		0A1BEADF039C54561B183EDE /* Pods_ClubSimObjC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B0A8F24C41187EC3F74A551 /* Pods_ClubSimObjC.framework */; };
+		581517E52051A87A003ADEC8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 581517E42051A87A003ADEC8 /* AppDelegate.m */; };
+		581517E82051A87A003ADEC8 /* HomePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 581517E72051A87A003ADEC8 /* HomePageViewController.m */; };
+		581517EB2051A87A003ADEC8 /* ProfilePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 581517EA2051A87A003ADEC8 /* ProfilePageViewController.m */; };
+		581517EE2051A87A003ADEC8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 581517EC2051A87A003ADEC8 /* Main.storyboard */; };
+		581517F02051A87B003ADEC8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 581517EF2051A87B003ADEC8 /* Assets.xcassets */; };
+		581517F32051A87B003ADEC8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 581517F12051A87B003ADEC8 /* LaunchScreen.storyboard */; };
+		581517F62051A87B003ADEC8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 581517F52051A87B003ADEC8 /* main.m */; };
+		581518002051A87B003ADEC8 /* ClubSimObjCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 581517FF2051A87B003ADEC8 /* ClubSimObjCTests.m */; };
+		5815180B2051A87C003ADEC8 /* ClubSimObjCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5815180A2051A87C003ADEC8 /* ClubSimObjCUITests.m */; };
+		588BDC0A2052095C00BCFEA4 /* SupportPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 588BDC092052095C00BCFEA4 /* SupportPageViewController.m */; };
+		588BDC0D20520B9900BCFEA4 /* MorePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 588BDC0C20520B9900BCFEA4 /* MorePageViewController.m */; };
+		588BDC102052527000BCFEA4 /* NetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 588BDC0F2052527000BCFEA4 /* NetworkManager.m */; };
+		5898720E20550C9C007AF317 /* ResponseHeaderModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5898720D20550C9C007AF317 /* ResponseHeaderModel.m */; };
+		5898721820550CBF007AF317 /* HomeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5898721720550CBF007AF317 /* HomeModel.m */; };
+		5898721C2055C844007AF317 /* HomePageTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5898721A2055C844007AF317 /* HomePageTableViewCell.m */; };
+		5898721D2055C844007AF317 /* HomePageTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5898721B2055C844007AF317 /* HomePageTableViewCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		581517FC2051A87B003ADEC8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 581517D82051A878003ADEC8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 581517DF2051A879003ADEC8;
+			remoteInfo = ClubSimObjC;
+		};
+		581518072051A87C003ADEC8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 581517D82051A878003ADEC8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 581517DF2051A879003ADEC8;
+			remoteInfo = ClubSimObjC;
+		};
+		584C0929205509FA009C4E49 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 58EAB5F42051B5FE0080D1C5 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 18F95BE62A187014CEDD6B552D61A6A1;
+			remoteInfo = FontAwesomeKit;
+		};
+		5898721420550C9D007AF317 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 58EAB5F42051B5FE0080D1C5 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2BEFDF6C2644F91FC8FC8F6487CFAF28;
+			remoteInfo = JSONModel;
+		};
+		58EAB5F92051B5FF0080D1C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 58EAB5F42051B5FE0080D1C5 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2654D42546A72209E734FC65924F6E2A;
+			remoteInfo = AFNetworking;
+		};
+		58EAB5FB2051B5FF0080D1C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 58EAB5F42051B5FE0080D1C5 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 984049C6ADFC29E7971BA53CCDC5806F;
+			remoteInfo = "Pods-ClubSimObjC";
+		};
+		58F52EC32051B91600C188B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 58EAB5F42051B5FE0080D1C5 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4C6B1F12F23B336F4C63000C082F7ED1;
+			remoteInfo = "Pods-ClubSimObjCTests";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		072A079FBBE9654EEECDBD88 /* Pods-ClubSimObjC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClubSimObjC.release.xcconfig"; path = "Pods/Target Support Files/Pods-ClubSimObjC/Pods-ClubSimObjC.release.xcconfig"; sourceTree = "<group>"; };
+		0B0A8F24C41187EC3F74A551 /* Pods_ClubSimObjC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ClubSimObjC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B69C8A7B3765FC8219FAB18 /* Pods-ClubSimObjC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClubSimObjC.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ClubSimObjC/Pods-ClubSimObjC.debug.xcconfig"; sourceTree = "<group>"; };
+		2D3E7D9339CFB1F61B42E983 /* Pods-ClubSimObjCTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClubSimObjCTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ClubSimObjCTests/Pods-ClubSimObjCTests.debug.xcconfig"; sourceTree = "<group>"; };
+		581517E02051A879003ADEC8 /* ClubSimObjC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClubSimObjC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		581517E32051A879003ADEC8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		581517E42051A87A003ADEC8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		581517E62051A87A003ADEC8 /* HomePageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomePageViewController.h; sourceTree = "<group>"; };
+		581517E72051A87A003ADEC8 /* HomePageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomePageViewController.m; sourceTree = "<group>"; };
+		581517E92051A87A003ADEC8 /* ProfilePageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProfilePageViewController.h; sourceTree = "<group>"; };
+		581517EA2051A87A003ADEC8 /* ProfilePageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProfilePageViewController.m; sourceTree = "<group>"; };
+		581517ED2051A87A003ADEC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		581517EF2051A87B003ADEC8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		581517F22051A87B003ADEC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		581517F42051A87B003ADEC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		581517F52051A87B003ADEC8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		581517FB2051A87B003ADEC8 /* ClubSimObjCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClubSimObjCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		581517FF2051A87B003ADEC8 /* ClubSimObjCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClubSimObjCTests.m; sourceTree = "<group>"; };
+		581518012051A87B003ADEC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		581518062051A87C003ADEC8 /* ClubSimObjCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClubSimObjCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5815180A2051A87C003ADEC8 /* ClubSimObjCUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClubSimObjCUITests.m; sourceTree = "<group>"; };
+		5815180C2051A87C003ADEC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		588BDC082052095C00BCFEA4 /* SupportPageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SupportPageViewController.h; sourceTree = "<group>"; };
+		588BDC092052095C00BCFEA4 /* SupportPageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SupportPageViewController.m; sourceTree = "<group>"; };
+		588BDC0B20520B9900BCFEA4 /* MorePageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MorePageViewController.h; sourceTree = "<group>"; };
+		588BDC0C20520B9900BCFEA4 /* MorePageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MorePageViewController.m; sourceTree = "<group>"; };
+		588BDC0E2052525300BCFEA4 /* NetworkManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetworkManager.h; sourceTree = "<group>"; };
+		588BDC0F2052527000BCFEA4 /* NetworkManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetworkManager.m; sourceTree = "<group>"; };
+		5898720C20550C9C007AF317 /* ResponseHeaderModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ResponseHeaderModel.h; sourceTree = "<group>"; };
+		5898720D20550C9C007AF317 /* ResponseHeaderModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ResponseHeaderModel.m; sourceTree = "<group>"; };
+		5898721620550CBF007AF317 /* HomeModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeModel.h; sourceTree = "<group>"; };
+		5898721720550CBF007AF317 /* HomeModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeModel.m; sourceTree = "<group>"; };
+		589872192055C844007AF317 /* HomePageTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomePageTableViewCell.h; sourceTree = "<group>"; };
+		5898721A2055C844007AF317 /* HomePageTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomePageTableViewCell.m; sourceTree = "<group>"; };
+		5898721B2055C844007AF317 /* HomePageTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomePageTableViewCell.xib; sourceTree = "<group>"; };
+		58EAB5F42051B5FE0080D1C5 /* Pods.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Pods.xcodeproj; path = Pods/Pods.xcodeproj; sourceTree = "<group>"; };
+		7576F26484824B11D17D85D4 /* Pods_ClubSimObjCTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ClubSimObjCTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF3F1AFFCA96D25630C52354 /* Pods-ClubSimObjCTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClubSimObjCTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ClubSimObjCTests/Pods-ClubSimObjCTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		581517DD2051A879003ADEC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A1BEADF039C54561B183EDE /* Pods_ClubSimObjC.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		581517F82051A87B003ADEC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07398347526D1E1E9150DA33 /* Pods_ClubSimObjCTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		581518032051A87B003ADEC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0002BA91940D3A49EE07FA26 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				58EAB5F42051B5FE0080D1C5 /* Pods.xcodeproj */,
+				0B0A8F24C41187EC3F74A551 /* Pods_ClubSimObjC.framework */,
+				7576F26484824B11D17D85D4 /* Pods_ClubSimObjCTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		581517D72051A878003ADEC8 = {
+			isa = PBXGroup;
+			children = (
+				581517E22051A879003ADEC8 /* ClubSimObjC */,
+				581517FE2051A87B003ADEC8 /* ClubSimObjCTests */,
+				581518092051A87C003ADEC8 /* ClubSimObjCUITests */,
+				581517E12051A879003ADEC8 /* Products */,
+				A23B3FDB69819FFC6FD72256 /* Pods */,
+				0002BA91940D3A49EE07FA26 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		581517E12051A879003ADEC8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				581517E02051A879003ADEC8 /* ClubSimObjC.app */,
+				581517FB2051A87B003ADEC8 /* ClubSimObjCTests.xctest */,
+				581518062051A87C003ADEC8 /* ClubSimObjCUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		581517E22051A879003ADEC8 /* ClubSimObjC */ = {
+			isa = PBXGroup;
+			children = (
+				58F52EC82051B9DC00C188B9 /* network */,
+				58F52EBF2051B91600C188B9 /* Home Page */,
+				58F52EC52051B91E00C188B9 /* Profile Page */,
+				58F52EC62051B92E00C188B9 /* Support Page */,
+				58F52EC72051B93700C188B9 /* More Page */,
+				581517E32051A879003ADEC8 /* AppDelegate.h */,
+				581517E42051A87A003ADEC8 /* AppDelegate.m */,
+				581517EC2051A87A003ADEC8 /* Main.storyboard */,
+				581517EF2051A87B003ADEC8 /* Assets.xcassets */,
+				581517F12051A87B003ADEC8 /* LaunchScreen.storyboard */,
+				581517F42051A87B003ADEC8 /* Info.plist */,
+				581517F52051A87B003ADEC8 /* main.m */,
+			);
+			path = ClubSimObjC;
+			sourceTree = "<group>";
+		};
+		581517FE2051A87B003ADEC8 /* ClubSimObjCTests */ = {
+			isa = PBXGroup;
+			children = (
+				581517FF2051A87B003ADEC8 /* ClubSimObjCTests.m */,
+				581518012051A87B003ADEC8 /* Info.plist */,
+			);
+			path = ClubSimObjCTests;
+			sourceTree = "<group>";
+		};
+		581518092051A87C003ADEC8 /* ClubSimObjCUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5815180A2051A87C003ADEC8 /* ClubSimObjCUITests.m */,
+				5815180C2051A87C003ADEC8 /* Info.plist */,
+			);
+			path = ClubSimObjCUITests;
+			sourceTree = "<group>";
+		};
+		584C0924205509FA009C4E49 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5898720C20550C9C007AF317 /* ResponseHeaderModel.h */,
+				5898720D20550C9C007AF317 /* ResponseHeaderModel.m */,
+				5898721620550CBF007AF317 /* HomeModel.h */,
+				5898721720550CBF007AF317 /* HomeModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		58EAB5F52051B5FE0080D1C5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				58EAB5FA2051B5FF0080D1C5 /* AFNetworking.framework */,
+				584C092A205509FA009C4E49 /* FontAwesomeKit.framework */,
+				5898721520550C9D007AF317 /* JSONModel.framework */,
+				58EAB5FC2051B5FF0080D1C5 /* Pods_ClubSimObjC.framework */,
+				58F52EC42051B91600C188B9 /* Pods_ClubSimObjCTests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		58F52EBF2051B91600C188B9 /* Home Page */ = {
+			isa = PBXGroup;
+			children = (
+				581517E62051A87A003ADEC8 /* HomePageViewController.h */,
+				581517E72051A87A003ADEC8 /* HomePageViewController.m */,
+				589872192055C844007AF317 /* HomePageTableViewCell.h */,
+				5898721A2055C844007AF317 /* HomePageTableViewCell.m */,
+				5898721B2055C844007AF317 /* HomePageTableViewCell.xib */,
+			);
+			path = "Home Page";
+			sourceTree = "<group>";
+		};
+		58F52EC52051B91E00C188B9 /* Profile Page */ = {
+			isa = PBXGroup;
+			children = (
+				581517E92051A87A003ADEC8 /* ProfilePageViewController.h */,
+				581517EA2051A87A003ADEC8 /* ProfilePageViewController.m */,
+			);
+			path = "Profile Page";
+			sourceTree = "<group>";
+		};
+		58F52EC62051B92E00C188B9 /* Support Page */ = {
+			isa = PBXGroup;
+			children = (
+				588BDC082052095C00BCFEA4 /* SupportPageViewController.h */,
+				588BDC092052095C00BCFEA4 /* SupportPageViewController.m */,
+			);
+			path = "Support Page";
+			sourceTree = "<group>";
+		};
+		58F52EC72051B93700C188B9 /* More Page */ = {
+			isa = PBXGroup;
+			children = (
+				588BDC0B20520B9900BCFEA4 /* MorePageViewController.h */,
+				588BDC0C20520B9900BCFEA4 /* MorePageViewController.m */,
+			);
+			path = "More Page";
+			sourceTree = "<group>";
+		};
+		58F52EC82051B9DC00C188B9 /* network */ = {
+			isa = PBXGroup;
+			children = (
+				584C0924205509FA009C4E49 /* Model */,
+				588BDC0E2052525300BCFEA4 /* NetworkManager.h */,
+				588BDC0F2052527000BCFEA4 /* NetworkManager.m */,
+			);
+			path = network;
+			sourceTree = "<group>";
+		};
+		A23B3FDB69819FFC6FD72256 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0B69C8A7B3765FC8219FAB18 /* Pods-ClubSimObjC.debug.xcconfig */,
+				072A079FBBE9654EEECDBD88 /* Pods-ClubSimObjC.release.xcconfig */,
+				2D3E7D9339CFB1F61B42E983 /* Pods-ClubSimObjCTests.debug.xcconfig */,
+				FF3F1AFFCA96D25630C52354 /* Pods-ClubSimObjCTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		581517DF2051A879003ADEC8 /* ClubSimObjC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5815180F2051A87C003ADEC8 /* Build configuration list for PBXNativeTarget "ClubSimObjC" */;
+			buildPhases = (
+				D2BFDD9BE9A0B96E97E862DC /* [CP] Check Pods Manifest.lock */,
+				581517DC2051A879003ADEC8 /* Sources */,
+				581517DD2051A879003ADEC8 /* Frameworks */,
+				581517DE2051A879003ADEC8 /* Resources */,
+				EC248D898920684B6FFC615B /* [CP] Embed Pods Frameworks */,
+				047A999D445D495EAD03A481 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ClubSimObjC;
+			productName = ClubSimObjC;
+			productReference = 581517E02051A879003ADEC8 /* ClubSimObjC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		581517FA2051A87B003ADEC8 /* ClubSimObjCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 581518122051A87C003ADEC8 /* Build configuration list for PBXNativeTarget "ClubSimObjCTests" */;
+			buildPhases = (
+				EB5FD647EF218455D9B519BB /* [CP] Check Pods Manifest.lock */,
+				581517F72051A87B003ADEC8 /* Sources */,
+				581517F82051A87B003ADEC8 /* Frameworks */,
+				581517F92051A87B003ADEC8 /* Resources */,
+				A5E60494696B9D6E953CE88F /* [CP] Embed Pods Frameworks */,
+				B713285656EE18A461E7C05E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				581517FD2051A87B003ADEC8 /* PBXTargetDependency */,
+			);
+			name = ClubSimObjCTests;
+			productName = ClubSimObjCTests;
+			productReference = 581517FB2051A87B003ADEC8 /* ClubSimObjCTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		581518052051A87B003ADEC8 /* ClubSimObjCUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 581518152051A87C003ADEC8 /* Build configuration list for PBXNativeTarget "ClubSimObjCUITests" */;
+			buildPhases = (
+				581518022051A87B003ADEC8 /* Sources */,
+				581518032051A87B003ADEC8 /* Frameworks */,
+				581518042051A87B003ADEC8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				581518082051A87C003ADEC8 /* PBXTargetDependency */,
+			);
+			name = ClubSimObjCUITests;
+			productName = ClubSimObjCUITests;
+			productReference = 581518062051A87C003ADEC8 /* ClubSimObjCUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		581517D82051A878003ADEC8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = ernestleung;
+				TargetAttributes = {
+					581517DF2051A879003ADEC8 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					581517FA2051A87B003ADEC8 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 581517DF2051A879003ADEC8;
+					};
+					581518052051A87B003ADEC8 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 581517DF2051A879003ADEC8;
+					};
+				};
+			};
+			buildConfigurationList = 581517DB2051A878003ADEC8 /* Build configuration list for PBXProject "ClubSimObjC" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 581517D72051A878003ADEC8;
+			productRefGroup = 581517E12051A879003ADEC8 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 58EAB5F52051B5FE0080D1C5 /* Products */;
+					ProjectRef = 58EAB5F42051B5FE0080D1C5 /* Pods.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				581517DF2051A879003ADEC8 /* ClubSimObjC */,
+				581517FA2051A87B003ADEC8 /* ClubSimObjCTests */,
+				581518052051A87B003ADEC8 /* ClubSimObjCUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		584C092A205509FA009C4E49 /* FontAwesomeKit.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = FontAwesomeKit.framework;
+			remoteRef = 584C0929205509FA009C4E49 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		5898721520550C9D007AF317 /* JSONModel.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = JSONModel.framework;
+			remoteRef = 5898721420550C9D007AF317 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		58EAB5FA2051B5FF0080D1C5 /* AFNetworking.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = AFNetworking.framework;
+			remoteRef = 58EAB5F92051B5FF0080D1C5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		58EAB5FC2051B5FF0080D1C5 /* Pods_ClubSimObjC.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Pods_ClubSimObjC.framework;
+			remoteRef = 58EAB5FB2051B5FF0080D1C5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		58F52EC42051B91600C188B9 /* Pods_ClubSimObjCTests.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Pods_ClubSimObjCTests.framework;
+			remoteRef = 58F52EC32051B91600C188B9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		581517DE2051A879003ADEC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				581517F32051A87B003ADEC8 /* LaunchScreen.storyboard in Resources */,
+				581517F02051A87B003ADEC8 /* Assets.xcassets in Resources */,
+				581517EE2051A87A003ADEC8 /* Main.storyboard in Resources */,
+				5898721D2055C844007AF317 /* HomePageTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		581517F92051A87B003ADEC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		581518042051A87B003ADEC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		047A999D445D495EAD03A481 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ClubSimObjC/Pods-ClubSimObjC-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A5E60494696B9D6E953CE88F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ClubSimObjCTests/Pods-ClubSimObjCTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/FontAwesomeKit/FontAwesomeKit.framework",
+				"${BUILT_PRODUCTS_DIR}/JSONModel/JSONModel.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FontAwesomeKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JSONModel.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ClubSimObjCTests/Pods-ClubSimObjCTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B713285656EE18A461E7C05E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ClubSimObjCTests/Pods-ClubSimObjCTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D2BFDD9BE9A0B96E97E862DC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ClubSimObjC-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EB5FD647EF218455D9B519BB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ClubSimObjCTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EC248D898920684B6FFC615B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ClubSimObjC/Pods-ClubSimObjC-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/FontAwesomeKit/FontAwesomeKit.framework",
+				"${BUILT_PRODUCTS_DIR}/JSONModel/JSONModel.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FontAwesomeKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JSONModel.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ClubSimObjC/Pods-ClubSimObjC-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		581517DC2051A879003ADEC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				588BDC0D20520B9900BCFEA4 /* MorePageViewController.m in Sources */,
+				5898720E20550C9C007AF317 /* ResponseHeaderModel.m in Sources */,
+				588BDC102052527000BCFEA4 /* NetworkManager.m in Sources */,
+				5898721C2055C844007AF317 /* HomePageTableViewCell.m in Sources */,
+				581517EB2051A87A003ADEC8 /* ProfilePageViewController.m in Sources */,
+				588BDC0A2052095C00BCFEA4 /* SupportPageViewController.m in Sources */,
+				581517E52051A87A003ADEC8 /* AppDelegate.m in Sources */,
+				581517F62051A87B003ADEC8 /* main.m in Sources */,
+				581517E82051A87A003ADEC8 /* HomePageViewController.m in Sources */,
+				5898721820550CBF007AF317 /* HomeModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		581517F72051A87B003ADEC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				581518002051A87B003ADEC8 /* ClubSimObjCTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		581518022051A87B003ADEC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5815180B2051A87C003ADEC8 /* ClubSimObjCUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		581517FD2051A87B003ADEC8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 581517DF2051A879003ADEC8 /* ClubSimObjC */;
+			targetProxy = 581517FC2051A87B003ADEC8 /* PBXContainerItemProxy */;
+		};
+		581518082051A87C003ADEC8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 581517DF2051A879003ADEC8 /* ClubSimObjC */;
+			targetProxy = 581518072051A87C003ADEC8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		581517EC2051A87A003ADEC8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				581517ED2051A87A003ADEC8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		581517F12051A87B003ADEC8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				581517F22051A87B003ADEC8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5815180D2051A87C003ADEC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5815180E2051A87C003ADEC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		581518102051A87C003ADEC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B69C8A7B3765FC8219FAB18 /* Pods-ClubSimObjC.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8K4MG8NAD8;
+				INFOPLIST_FILE = ClubSimObjC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ernestleung.ClubSimObjC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		581518112051A87C003ADEC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 072A079FBBE9654EEECDBD88 /* Pods-ClubSimObjC.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8K4MG8NAD8;
+				INFOPLIST_FILE = ClubSimObjC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ernestleung.ClubSimObjC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		581518132051A87C003ADEC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D3E7D9339CFB1F61B42E983 /* Pods-ClubSimObjCTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8K4MG8NAD8;
+				INFOPLIST_FILE = ClubSimObjCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ernestleung.ClubSimObjCTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ClubSimObjC.app/ClubSimObjC";
+			};
+			name = Debug;
+		};
+		581518142051A87C003ADEC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF3F1AFFCA96D25630C52354 /* Pods-ClubSimObjCTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8K4MG8NAD8;
+				INFOPLIST_FILE = ClubSimObjCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ernestleung.ClubSimObjCTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ClubSimObjC.app/ClubSimObjC";
+			};
+			name = Release;
+		};
+		581518162051A87C003ADEC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8K4MG8NAD8;
+				INFOPLIST_FILE = ClubSimObjCUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ernestleung.ClubSimObjCUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ClubSimObjC;
+			};
+			name = Debug;
+		};
+		581518172051A87C003ADEC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8K4MG8NAD8;
+				INFOPLIST_FILE = ClubSimObjCUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ernestleung.ClubSimObjCUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ClubSimObjC;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		581517DB2051A878003ADEC8 /* Build configuration list for PBXProject "ClubSimObjC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5815180D2051A87C003ADEC8 /* Debug */,
+				5815180E2051A87C003ADEC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5815180F2051A87C003ADEC8 /* Build configuration list for PBXNativeTarget "ClubSimObjC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				581518102051A87C003ADEC8 /* Debug */,
+				581518112051A87C003ADEC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		581518122051A87C003ADEC8 /* Build configuration list for PBXNativeTarget "ClubSimObjCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				581518132051A87C003ADEC8 /* Debug */,
+				581518142051A87C003ADEC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		581518152051A87C003ADEC8 /* Build configuration list for PBXNativeTarget "ClubSimObjCUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				581518162051A87C003ADEC8 /* Debug */,
+				581518172051A87C003ADEC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 581517D82051A878003ADEC8 /* Project object */;
+}
