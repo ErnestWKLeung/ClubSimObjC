@@ -13,10 +13,11 @@
 
 //! TODO: create singleton for session manager
 
-//+(void) getHomePageData:(nullable NSData * _Nullable (^)(NSHTTPURLResponse * _Nullable response, NSData * _Nullable data))success
-//                failure:(nullable void (^)(NSError * _Nullable error))failure;
++(void) getHomePageData:(void (^)(NSHTTPURLResponse *  response, NSString * data))success
+                failure:(void (^)(NSError * error))failure;
 
-+(void) getHomePageData;
++(void) getHomePageRollerData:(void (^)(NSHTTPURLResponse * response, NSString * data)) success
+                      failure:(void (^)(NSError * error))failure;
 
 @end
 

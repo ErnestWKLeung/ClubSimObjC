@@ -10,6 +10,7 @@
 
 @interface ProfilePageViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UITabBarItem *profileBarItem;
 
 @end
 

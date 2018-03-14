@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="bottom" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg" translatesAutoresizingMaskIntoConstraints="NO" id="cFA-eO-HYS">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AoZ-fB-LpV">
+                                <rect key="frame" x="102" y="200" width="170" height="46"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="e9s-rR-2Pb">
+                                        <rect key="frame" x="80" y="9" width="35" height="27"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CLUB" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zOs-oT-qwa">
+                                        <rect key="frame" x="0.0" y="5" width="78" height="36"/>
+                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="30"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SIM" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P1L-nP-KpE">
+                                        <rect key="frame" x="117" y="5" width="53" height="36"/>
+                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="30"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="P1L-nP-KpE" secondAttribute="bottom" constant="5" id="1nk-1b-swm"/>
+                                    <constraint firstItem="P1L-nP-KpE" firstAttribute="top" secondItem="AoZ-fB-LpV" secondAttribute="top" constant="5" id="1uJ-vJ-XqI"/>
+                                    <constraint firstItem="zOs-oT-qwa" firstAttribute="top" secondItem="AoZ-fB-LpV" secondAttribute="top" constant="5" id="3h4-dd-W47"/>
+                                    <constraint firstItem="e9s-rR-2Pb" firstAttribute="centerY" secondItem="AoZ-fB-LpV" secondAttribute="centerY" id="FoZ-q8-o3Y"/>
+                                    <constraint firstAttribute="bottom" secondItem="zOs-oT-qwa" secondAttribute="bottom" constant="5" id="HFB-Dn-X4R"/>
+                                    <constraint firstItem="P1L-nP-KpE" firstAttribute="leading" secondItem="e9s-rR-2Pb" secondAttribute="trailing" constant="2" id="SpQ-Lf-k6C"/>
+                                    <constraint firstItem="zOs-oT-qwa" firstAttribute="leading" secondItem="AoZ-fB-LpV" secondAttribute="leading" id="U6x-v6-VPY"/>
+                                    <constraint firstAttribute="trailing" secondItem="P1L-nP-KpE" secondAttribute="trailing" id="e6w-4V-76F"/>
+                                    <constraint firstItem="e9s-rR-2Pb" firstAttribute="leading" secondItem="zOs-oT-qwa" secondAttribute="trailing" constant="2" id="yqy-ZQ-FZJ"/>
+                                </constraints>
+                            </view>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="white" translatesAutoresizingMaskIntoConstraints="NO" id="o1j-Dp-8MH">
+                                <rect key="frame" x="177.5" y="323.5" width="20" height="20"/>
+                            </activityIndicatorView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="cFA-eO-HYS" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="6t0-c0-mlR"/>
+                            <constraint firstItem="o1j-Dp-8MH" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="OiI-NI-W0z"/>
+                            <constraint firstItem="AoZ-fB-LpV" firstAttribute="top" secondItem="Bcu-3y-fUS" secondAttribute="top" constant="180" id="VTk-xZ-3cI"/>
+                            <constraint firstItem="cFA-eO-HYS" firstAttribute="leading" secondItem="Bcu-3y-fUS" secondAttribute="leading" id="a6U-WU-SQs"/>
+                            <constraint firstItem="o1j-Dp-8MH" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="i54-x7-Vg1"/>
+                            <constraint firstItem="cFA-eO-HYS" firstAttribute="bottom" secondItem="Bcu-3y-fUS" secondAttribute="bottom" id="ic8-zd-Lss"/>
+                            <constraint firstItem="cFA-eO-HYS" firstAttribute="trailing" secondItem="Bcu-3y-fUS" secondAttribute="trailing" id="k8W-ri-00q"/>
+                            <constraint firstItem="AoZ-fB-LpV" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="o9v-SK-nmc"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Bcu-3y-fUS"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="bg" width="360" height="214"/>
+        <image name="logo" width="35" height="27"/>
+    </resources>
+</document>

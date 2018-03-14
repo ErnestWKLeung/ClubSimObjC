@@ -7,23 +7,14 @@
 //
 
 #import <JSONModel/JSONModel.h>
+#import "CategoryModel.h"
 
-@interface CategoryModel :JSONModel
-
-@property (nonatomic) NSString *img;
-@property (nonatomic) NSString *priceimg;
-@property (nonatomic) NSString *color;
-@property (nonatomic) NSString *name;
-@property (nonatomic) NSString *id;
-@property (nonatomic) NSString *avatar;
-@property (nonatomic) NSString *desc;
-@end
 
 @interface HomeModel : JSONModel
 
-@property (nonatomic) NSString *result;
-@property (nonatomic) NSInteger code;
-@property (nonatomic) NSInteger lastupdatetime;
-@property (nonatomic) NSString *description;
-@property (nonatomic) NSArray<CategoryModel *> *category;
+@property (nonatomic, strong) NSString *result;
+@property (nonatomic, assign) NSInteger code;
+@property (nonatomic, assign) NSInteger lastupdatetime;
+@property (nonatomic, strong) NSString *description;
+@property (nonatomic, strong) NSArray<CategoryModel> *category;
 @end
