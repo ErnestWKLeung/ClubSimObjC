@@ -50,22 +50,12 @@ alpha:1.0]
 
 -(void)getPageData {
     
-    printf("getPageData");
-//    [NetworkManager getHomePageData: ^NSString * _Nonnull(NSHTTPURLResponse * _Nonnull response, NSString * _Nonnull responseObject) {
-//    }
-//                            failure: nil];
-//    }
-
-//    bool needUpdate = false;
-//    [needUpdate: NO];
-    
     [NetworkManager getHomePageData: ^( NSHTTPURLResponse * response, NSString * data) {
         NSLog(@"Completion");
         
         NSError *error;
         HomeModel *homeModel = [[HomeModel alloc] initWithString: data error: &error];
         tableData = [homeModel category];
-//        __block needUpdate = true;
         [_tableView reloadData];
     }
     failure: ^(NSError* error){
@@ -77,7 +67,6 @@ alpha:1.0]
         BannerListModel *bannerListModel = [[BannerListModel alloc] initWithString: data error: &error];
         
         bannerData = [bannerListModel banners];
-//        __block needUpdate = true;
         [_tableView reloadData];
     }
     failure: ^(NSError* error){
@@ -145,37 +134,7 @@ alpha:1.0]
         cell = [nib objectAtIndex:0];
     }
     
-//    [cell configureCellWith:bannerData andSize:[bannerData count]];
     [cell configureCellWith:bannerData andSize:5];
-//    int numberOfPages = 5;
-//    UIScrollView *someScrollView = [[UIScrollView alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height)];
-//    someScrollView.pagingEnabled = YES;
-//    //set the scroll view delegate to self so that we can listen for changes
-//    someScrollView.delegate = self;
-//    someScrollView.contentSize = CGSizeMake(numberOfPages * someScrollView.frame.size.width, someScrollView.frame.size.height);
-//    [self.view addSubview:someScrollView];
-//
-//    for (int i = 1; i <= numberOfPages; i++) {
-//        //set the origin of the sub view
-//        CGFloat myOrigin = i * self.view.frame.size.width;
-//
-//        //get the sub view and set the frame
-//        UIImageView *imageView1 = [[UIImageView alloc]initWithFrame:CGRectMake(myOrigin, 0, self.view.frame.size.width, someScrollView.frame.size.height)];
-//        imageView1.image = [UIImage imageNamed: [NSString stringWithFormat:@"openingScreen%d.png",i ]];
-//
-//
-//        //add the subview to the scroll view
-//        [someScrollView addSubview:imageView1];
-//    }
-////////////////////////////////
-////    cell.imageScrollView.contentSize = CGSizeMake(bannerData.count * cell, <#CGFloat height#>)
-//    for (int i = 0; i < bannerData.count; ++i){
-//        const UIImageView *imageView = [[UIImageView alloc] init];
-//        [imageView setContentMode:UIViewContentModeScaleAspectFill];
-//        [imageView setClipsToBounds:YES];
-//        [cell.imageScrollView addSubview:imageView];
-//
-//    }
 
     return cell;
 }

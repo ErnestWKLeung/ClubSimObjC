@@ -59,20 +59,9 @@
     _imageScrollView.delegate = self;
 }
 
-- (void) scrollViewWillEndDragging:(UIScrollView *)scrollView withVelocity:(CGPoint)velocity targetContentOffset:(inout CGPoint *)targetContentOffset{
-    
-//    const int pageNumber = round(_imageScrollView.contentOffset.x / _imageScrollView.frame.size.width);
-//
-//    _imagePageControl.currentPage = pageNumber;
-
-}
-
 - (void) scrollViewDidEndDecelerating:(UIScrollView *)scrollView{
     
-//    CGFloat pageWidth = _imageScrollView.frame.size.width;
-//    int page = floor((scrollView.contentOffset.x - pageWidth / 2) / pageWidth) + 1;
-//
-//    NSLog(@"Dragging - You are now on page %i",page);
+    //! update page control layout
     const int pageNumber = round(_imageScrollView.contentOffset.x / _imageScrollView.frame.size.width);
     
     _imagePageControl.currentPage = pageNumber;

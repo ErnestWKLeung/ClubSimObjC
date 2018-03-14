@@ -53,7 +53,7 @@
                                     <constraint firstItem="e9s-rR-2Pb" firstAttribute="leading" secondItem="zOs-oT-qwa" secondAttribute="trailing" constant="2" id="yqy-ZQ-FZJ"/>
                                 </constraints>
                             </view>
-                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="white" translatesAutoresizingMaskIntoConstraints="NO" id="o1j-Dp-8MH">
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" animating="YES" style="white" translatesAutoresizingMaskIntoConstraints="NO" id="o1j-Dp-8MH">
                                 <rect key="frame" x="177.5" y="323.5" width="20" height="20"/>
                             </activityIndicatorView>
                         </subviews>

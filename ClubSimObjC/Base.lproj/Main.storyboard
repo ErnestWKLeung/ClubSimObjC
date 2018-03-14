@@ -18,7 +18,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="white" translatesAutoresizingMaskIntoConstraints="NO" id="pEE-0w-ZLR">
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" animating="YES" style="white" translatesAutoresizingMaskIntoConstraints="NO" id="pEE-0w-ZLR">
                                 <rect key="frame" x="177" y="323" width="20" height="20"/>
                             </activityIndicatorView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sqM-WY-ZeP">
@@ -56,12 +56,21 @@
                                             <constraint firstItem="meF-UM-JCL" firstAttribute="leading" secondItem="RTb-7A-jHa" secondAttribute="trailing" constant="2" id="vQd-5D-9tf"/>
                                         </constraints>
                                     </view>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="OEp-o5-yZ5">
+                                        <rect key="frame" x="0.0" y="45" width="375" height="1"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="1" id="ScR-iw-4gi"/>
+                                        </constraints>
+                                    </imageView>
                                 </subviews>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="46" id="Feg-PH-mgb"/>
                                     <constraint firstAttribute="bottom" secondItem="tcD-0C-p4c" secondAttribute="bottom" id="KwV-CC-dAM"/>
                                     <constraint firstItem="tcD-0C-p4c" firstAttribute="top" secondItem="sqM-WY-ZeP" secondAttribute="top" id="OCd-4W-18H"/>
+                                    <constraint firstAttribute="bottom" secondItem="OEp-o5-yZ5" secondAttribute="bottom" id="W4M-PA-t4B"/>
+                                    <constraint firstAttribute="trailing" secondItem="OEp-o5-yZ5" secondAttribute="trailing" id="ru1-j8-J4Z"/>
+                                    <constraint firstItem="OEp-o5-yZ5" firstAttribute="leading" secondItem="sqM-WY-ZeP" secondAttribute="leading" id="seA-DF-Ror"/>
                                     <constraint firstItem="tcD-0C-p4c" firstAttribute="centerX" secondItem="sqM-WY-ZeP" secondAttribute="centerX" id="xaN-9h-0ZC"/>
                                 </constraints>
                             </view>

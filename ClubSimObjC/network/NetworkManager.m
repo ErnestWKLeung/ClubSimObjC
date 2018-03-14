@@ -15,15 +15,6 @@
 
 @implementation NetworkManager
 
-//
-//- (void)loadRequest:(NSURLRequest *)request
-//           MIMEType:(NSString *)MIMEType
-//   textEncodingName:(NSString *)textEncodingName
-//           progress:(NSProgress * _Nullable __autoreleasing * _Nullable)progress
-//            success:(NSData * (^)(NSHTTPURLResponse *response, NSData *data))success
-//            failure:(void (^)(NSError *error))failure
-
-
 +(void) getHomePageData: (void (^)(NSHTTPURLResponse * response, NSString * data))success
                 failure: (void (^)(NSError * error))failure{
     NSLog(@"get home page data");
@@ -34,15 +25,12 @@
     AFURLSessionManager *manager = [[AFURLSessionManager alloc] initWithSessionConfiguration:configuration];
     
     manager.responseSerializer = [AFHTTPResponseSerializer serializer];
-////////////
-//    static NSString * const BaseURLString = @"https://www.clubsim.com.hk/clsmw/api/?action=240&platform=web&lang=eng";
+
     static NSString * const BaseURLString = @"https://www.clubsim.com.hk/clsmw/api/";
 
-    
-//    NSURL *URL = [NSURL URLWithString:BaseURLString];
     NSDictionary *parameters = @{@"action": @"240", @"platform": @"ios", @"lang": @"eng"};
     
-//    NSURLRequest *request = [NSURLRequest requestWithURL:URL];
+    //! although the api can be called in "GET" method, follow the call method as web
     NSURLRequest *request = [[AFHTTPRequestSerializer serializer] requestWithMethod:@"POST" URLString:BaseURLString parameters:parameters error:nil];
     
     NSURLSessionDataTask *dataTask = [manager dataTaskWithRequest:request completionHandler:^(NSURLResponse * _Nonnull response, id _Nonnull responseObject, NSError * _Nullable error) {
@@ -77,14 +65,11 @@
     
     manager.responseSerializer = [AFHTTPResponseSerializer serializer];
     ////////////
-//    static NSString * const BaseURLString = @"https://www.clubsim.com.hk/clsmw/api/?action=240&platform=web&lang=eng";
     static NSString * const BaseURLString = @"https://www.clubsim.com.hk/clsmw/api/";
-    
-//    NSURL *URL = [NSURL URLWithString:BaseURLString];
     
     NSDictionary *parameters = @{@"action": @"-1", @"platform": @"ios", @"lang": @"eng", @"ver": @"1.0.0"};
     
-//    NSURLRequest *request = [NSURLRequest requestWithURL:URL];
+    //! although the api can be called in "GET" method, follow the call method as web
     NSURLRequest *request = [[AFHTTPRequestSerializer serializer] requestWithMethod:@"POST" URLString:BaseURLString parameters:parameters error:nil];
     
     NSURLSessionDataTask *dataTask = [manager dataTaskWithRequest:request completionHandler:^(NSURLResponse * _Nonnull response, id _Nonnull responseObject, NSError * _Nullable error) {
