@@ -1,6 +1,7 @@
 # ClubSimObjC
 
 It is a testing app that using Objective C to mimic the usage of the other app "Club Sim".
+All graphic materials and API are fetched from the web site with simple editing.
 
 Before run the app please install cocoapod before.
 
@@ -20,3 +21,5 @@ Serveral UI components are used also:
 Due to time limited, UnitTest is skipped in this stage.
 
 This app is using typical Apple MVC architecture.
+
+Also, due to time limited, the source control structure is not a standard git flow (master, developer, feature branch).
