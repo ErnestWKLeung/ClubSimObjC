@@ -3,7 +3,8 @@
 It is a testing app that using Objective C to mimic the usage of the other app "Club Sim".
 All graphic materials and API are fetched from the web site with simple editing.
 
-Before run the app please install cocoapod before.
+Before run the app please install cocoapods before.
+https://cocoapods.org/
 
 In this sample app, several libraries are used:
 - RESTful API calling
@@ -17,6 +18,10 @@ Serveral UI components are used also:
 - UIViewController
 - UIScrollView
 - UIPageControl
+- UIImageView
+- UILabel
+- Activity Indicator View
+- Status bar setting
 
 Due to time limited, UnitTest is skipped in this stage.
 
