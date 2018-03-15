@@ -30,3 +30,6 @@ This app is using typical Apple MVC architecture.
 Also, due to time limited, the source control structure is not a standard git flow (master, developer, feature branch).
 
 TestFlight version is prepared. Please email me to get the redeem code.
+
+KnownIssue:
+- Do not handle layout in small screen size properly.
